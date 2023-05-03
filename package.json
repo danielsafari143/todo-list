@@ -26,6 +26,7 @@
     "webpack-dev-server": "^4.13.3"
   },
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.5"
   }
 }

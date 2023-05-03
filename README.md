@@ -26,9 +26,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Awesome-books <a name="about-project"></a>
+# 📖 Todo List <a name="about-project"></a>
 
-**Awesome-books** this is a website that help family and people to spend time together watching birds and enjoying the wildness
+**Todo List** This todo list helps to organize daily tasks
 
 ## 🛠 Built With <a name="built-with"> </a>
 
@@ -43,6 +43,7 @@
 
 <details>
   <summary>Css</summary>
+  <summary>JavaScript</summary>
   <ul>
     <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
