@@ -1,3 +1,5 @@
+import svg from '../img/three-dots.svg';
+
 const displayTask = () => {
     let taskList = document.getElementById('list');
     const task = [
@@ -7,7 +9,7 @@ const displayTask = () => {
     ];
 
     for(let i = 0 ; i < task.length ; i += 1){
-        taskList.innerHTML += `<li class="task item"><input id=${task[i].index} type="checkbox"/>${task[i].description}<p class="dots">...</p></li>`
+        taskList.innerHTML += `<li class="task item"><input id=${task[i].index} type="checkbox"/>${task[i].description} ${svg}</li>`
     };
     for(let i = 0 ; i < task.length ; i += 1){
         document.getElementById(`${task[i].index}`).checked = task[i].completed;

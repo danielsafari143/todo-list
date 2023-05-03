@@ -14,7 +14,11 @@ module.exports = {
         {
             test: /\.css$/,
             use: ["style-loader", "css-loader"]
-        }
+        },
+        {
+          test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+          use: ['svg-inline-loader'],
+        },
     ]
    }
     
