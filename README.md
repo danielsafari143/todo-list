@@ -28,7 +28,7 @@
 
 # 📖 Todo List <a name="about-project"></a>
 
-**Todo List** This todo list helps to organize day
+**Todo List** This todo list helps to organize your day
 
 ## 🛠 Built With <a name="built-with"> </a>
 
