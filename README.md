@@ -77,7 +77,7 @@ A working connection and a coding editor like visual studio code
 
 Clone this repository to your desired folder:
 
-- https://github.com/danielsafari143/todo-list.git
+- git clone https://github.com/danielsafari143/todo-list.git
 
 Use git push at your desired location and use the command git clone and paste the URL
 
