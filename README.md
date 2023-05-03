@@ -128,12 +128,6 @@ Example:
 
 - GitHub: [@danielsafari143 ](https://github.com/danielsafari143)
 
-👤 **kerlos-bahaa**
-
-- GitHub: [@githubhandle](https://github.com/kerlos-bahaa)
-- Twitter: [@twitterhandle](https://twitter.com/KerlosBahaa)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kerlos-bahaa-457a8925a/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
