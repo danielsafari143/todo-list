@@ -28,7 +28,7 @@
 
 # 📖 Todo List <a name="about-project"></a>
 
-**Todo List** This todo list helps to organize daily tasks
+**Todo List** This todo list helps to organize day
 
 ## 🛠 Built With <a name="built-with"> </a>
 
@@ -43,7 +43,6 @@
 
 <details>
   <summary>Css</summary>
-  <summary>JavaScript</summary>
   <ul>
     <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
@@ -60,18 +59,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[book library]**
-- **[add button]**
-- **[remove button]**
+- **[Display taks]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link]()
-  <br>
-- <a href="">Loom presentation</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,28 +76,13 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
 A working connection and a coding editor like visual studio code
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+- https://github.com/danielsafari143/todo-list.git
 
 Use git push at your desired location and use the command git clone and paste the URL
 
@@ -114,26 +90,14 @@ Use git push at your desired location and use the command git clone and paste th
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+- cd todo-list
+- npm install
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+- npm run start
 
 ### Run tests
 
