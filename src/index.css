@@ -37,6 +37,14 @@ html {
   justify-content: space-between;
 }
 
+.taskContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .btn {
   width: 343px;
   color: rgb(170, 170, 170);
@@ -52,7 +60,6 @@ html {
 
 body {
   height: 98vh;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
