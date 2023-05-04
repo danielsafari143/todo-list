@@ -3,6 +3,8 @@ import displayTask from './module/displayTask.js';
 import adding from './module/add.js';
 import removetask from './module/remove.js';
 import edit from './module/edit.js';
+import check from './module/check.js';
+import removeAll from './module/removeAll';
 
 displayTask(JSON.parse(localStorage.getItem('todo')));
 
@@ -18,4 +20,13 @@ document.addEventListener('click', (event) => {
     const texte = document.getElementById(event.target.id).innerHTML;
     edit(event.target.id, texte, JSON.parse(localStorage.getItem('todo')), displayTask);
   });
+  
 });
+
+document.addEventListener('change' , (event) => {
+    check(event.target.id , JSON.parse(localStorage.getItem('todo')))
+});
+
+document.getElementById('btn').addEventListener('click' , () => {
+    removeAll(JSON.parse(localStorage.getItem('todo')), displayTask);
+})
