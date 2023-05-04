@@ -59,7 +59,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Display taks]**
+- **[Display tasks]**
+- **[Add a task]**
+- **[Remove a task]**
+- **[Edit a task]**
 
 <!-- GETTING STARTED -->
 
