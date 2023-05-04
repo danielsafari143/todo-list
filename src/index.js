@@ -12,10 +12,10 @@ document.getElementById('insertBtn').addEventListener('click', () => {
 });
 
 document.addEventListener('click', (event) => {
-    const ids = event.target.parentNode.id;
-    if(ids.charAt(1) === 't') removetask(parseInt(ids.charAt(0)), JSON.parse(localStorage.getItem('todo')), displayTask);
-    document.addEventListener('keyup', (event) => {
-        const texte = document.getElementById(event.target.id).innerHTML;
-        edit(event.target.id, texte, JSON.parse(localStorage.getItem('todo')), displayTask);
-      });
+  const ids = event.target.parentNode.id;
+  if (ids.charAt(1) === 't') removetask(parseInt(ids.charAt(0), 10), JSON.parse(localStorage.getItem('todo')), displayTask);
+  document.addEventListener('keyup', (event) => {
+    const texte = document.getElementById(event.target.id).innerHTML;
+    edit(event.target.id, texte, JSON.parse(localStorage.getItem('todo')), displayTask);
   });
+});

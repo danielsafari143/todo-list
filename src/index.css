@@ -56,7 +56,7 @@ html {
 
 .inputItem {
   color: rgb(170, 170, 170);
-  border-color:white ;
+  border-color: white;
   width: 92%;
   display: flex;
   flex-direction: row;
@@ -79,12 +79,12 @@ body {
 }
 
 .trash {
-    color:  rgb(170, 170, 170);
-    width: 20px;
+  color: rgb(170, 170, 170);
+  width: 20px;
 }
 
 .image {
-    border: 1px solid blueviolet;
-    height: auto;
-    width: auto;
+  border: 1px solid blueviolet;
+  height: auto;
+  width: auto;
 }
