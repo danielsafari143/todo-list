@@ -63,6 +63,7 @@
 - **[Add a task]**
 - **[Remove a task]**
 - **[Edit a task]**
+- **[Remove all selected tasks]**
 
 <!-- GETTING STARTED -->
 
