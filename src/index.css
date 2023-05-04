@@ -37,6 +37,14 @@ html {
   justify-content: space-between;
 }
 
+.taskContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .btn {
   width: 343px;
   color: rgb(170, 170, 170);
@@ -48,11 +56,17 @@ html {
 
 .inputItem {
   color: rgb(170, 170, 170);
+  border-color: white;
+  width: 92%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-around;
 }
 
 body {
   height: 98vh;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -62,4 +76,15 @@ body {
 .dots {
   color: rgb(170, 170, 170);
   width: 20px;
+}
+
+.trash {
+  color: rgb(170, 170, 170);
+  width: 20px;
+}
+
+.image {
+  border: 1px solid blueviolet;
+  height: auto;
+  width: auto;
 }
