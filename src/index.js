@@ -22,11 +22,10 @@ document.addEventListener('click', (event) => {
   });
 });
 
-document.getElementById('btn').addEventListener('click', () => {
-    removeAll(JSON.parse(localStorage.getItem('todo')), displayTask);
-  });
-
 document.addEventListener('change', (event) => {
   check(event.target.id, JSON.parse(localStorage.getItem('todo')));
 });
 
+document.getElementById('btn').addEventListener('click', () => {
+  removeAll(JSON.parse(localStorage.getItem('todo')), displayTask);
+});
