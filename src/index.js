@@ -28,4 +28,4 @@ document.addEventListener('change', (event) => {
 
 document.getElementById('btn').addEventListener('click', () => {
   removeAll(JSON.parse(localStorage.getItem('todo')), displayTask);
-})
+});
