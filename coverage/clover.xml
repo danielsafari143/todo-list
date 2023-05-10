@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1683690330575" clover="3.2.0">
-  <project timestamp="1683690330575" name="All files">
+<coverage generated="1683692464995" clover="3.2.0">
+  <project timestamp="1683692464995" name="All files">
     <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3" elements="18" coveredelements="16" complexity="0" loc="11" ncloc="11" packages="1" files="2" classes="2"/>
     <file name="add.js" path="C:\Users\LENOVO T460\microverse\js_module\todo-list\src\module\add.js">
       <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
