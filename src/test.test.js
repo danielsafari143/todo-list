@@ -69,3 +69,4 @@ describe('Add and remove one item in the todo list', () => {
     expect(JSON.parse(localStorage.getItem('todo'))[2].index).toBe(2);
     expect(listItem.childNodes[1].childNodes[2].childNodes[1].innerHTML).toBe('Go to school');
   });
+});
