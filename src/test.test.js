@@ -51,7 +51,7 @@ describe('Add and remove one item in the todo list', () => {
     expect(listItem.childNodes[0].nodeName).toBe('LI');
     expect(listItem.childNodes[0].childNodes[2].childNodes[1].innerHTML).toBe('Daniel');
   });
-  // tamoor's code
+
   test('Remove an item from the list', () => {
     const listItem = document.getElementById('list');
     const fakeTasks = [
@@ -60,10 +60,12 @@ describe('Add and remove one item in the todo list', () => {
       { index: 2, description: 'Go to school', completed: false },
       { index: 3, description: 'Pry in the church', completed: false },
     ];
+
     localStorage.setItem('todo', JSON.stringify(fakeTasks));
     displayTask(JSON.parse(localStorage.getItem('todo')));
     document.getElementById('1trash').click;
     removetask(1, JSON.parse(localStorage.getItem('todo')), displayTask);
+
     expect(listItem.childNodes.length).toBe(3);
     expect(JSON.parse(localStorage.getItem('todo'))[1].description).toBe('Go to school');
     expect(JSON.parse(localStorage.getItem('todo'))[2].index).toBe(2);

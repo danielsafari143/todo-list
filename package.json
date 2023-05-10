@@ -1,7 +1,7 @@
 {
   "scripts": {
     "watch": "webpack --watch",
-    "test": "jest --coverage",
+    "test": "jest",
     "dev": "webpack --mode development",
     "start": "webpack server --open",
     "build": "webpack --mode production"
