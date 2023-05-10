@@ -2,8 +2,9 @@
  * @jest-environment jsdom
  */
 /* eslint-disable no-unused-expressions */
-import adding from './module/add.js';
 
+import adding from './module/add.js';
+import removetask from './module/remove.js';
 
 describe('Add and remove one item in the todo list', () => {
   beforeEach(() => {
@@ -48,6 +49,7 @@ describe('Add and remove one item in the todo list', () => {
     adding('Daniel', JSON.parse(localStorage.getItem('todo')), displayTask);
 
     expect(listItem.childNodes[0].nodeName).toBe('LI');
+    expect(listItem.childNodes[0].childNodes[2].childNodes[1].innerHTML).toBe('Daniel');
   });
 
 });
