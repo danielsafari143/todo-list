@@ -1,7 +1,7 @@
 /**
  * @jest-environment jsdom
  */
-/*eslint-disable no-unused-expressions */
+/* eslint-disable no-unused-expressions */
 
 import adding from './module/add.js';
 import removetask from './module/remove.js';
