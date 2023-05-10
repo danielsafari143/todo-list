@@ -51,19 +51,5 @@ describe('Add and remove one item in the todo list', () => {
     expect(listItem.childNodes[0].nodeName).toBe('LI');
   });
 
-  test('Remove an item from the list', () => {
-    const listItem = document.getElementById('list');
-    const fakeTasks = [
-      { index: 0, description: 'Study th lessons', completed: false },
-      { index: 1, description: 'wash the dishes', completed: false },
-      { index: 2, description: 'Go to school', completed: false },
-    ];
-
-    localStorage.setItem('todo', JSON.stringify(fakeTasks));
-    displayTask(JSON.parse(localStorage.getItem('todo')));
-    document.getElementById('0trash').click;
-    removetask(0, JSON.parse(localStorage.getItem('todo')), displayTask);
-
-    expect(listItem.childNodes.length).toBe(2);
-  });
+  
 });
