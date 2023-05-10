@@ -2,9 +2,8 @@
  * @jest-environment jsdom
  */
 /* eslint-disable no-unused-expressions */
-
 import adding from './module/add.js';
-import removetask from './module/remove.js';
+
 
 describe('Add and remove one item in the todo list', () => {
   beforeEach(() => {
@@ -51,5 +50,4 @@ describe('Add and remove one item in the todo list', () => {
     expect(listItem.childNodes[0].nodeName).toBe('LI');
   });
 
-  
 });
